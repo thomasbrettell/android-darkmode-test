@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './StyledCheckboxOne.module.css'
+import styles from './StyledCheckboxTwo.module.css'
 import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
