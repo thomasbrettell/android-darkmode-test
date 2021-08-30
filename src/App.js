@@ -1,6 +1,7 @@
 import Checkbox from './components/Checkbox/Checkbox';
 import StyledCheckboxOne from './components/StyledCheckboxOne/StyledCheckboxOne';
-import styles from './App.module.css'
+import styles from './App.module.css';
+import Button from '@material-ui/core/Button';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </div>
       <div className={styles.item}>
         <StyledCheckboxOne />
+      </div>
+      <div className={styles.item}>
+        <Button variant="outlined">Default</Button>
       </div>
     </div>
   );
