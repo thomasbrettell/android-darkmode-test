@@ -9,6 +9,7 @@ import StyledCheckboxBNWInverted from './components/StyledCheckboxBNWInverted/St
 import StyledCheckboxFour from './components/StyledCheckboxFour/StyledCheckboxFour';
 import StyledCheckboxFive from './components/StyledCheckboxFive/StyledCheckboxFive';
 import SVGSquare from './components/SVGSquare/SVGSquare';
+import StyledCheckboxSVG from './components/StyledCheckboxSVG/StyledCheckboxSVG';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
       </div>
       <div className={styles.item}>
         <SVGSquare />
+      </div>
+      <div className={styles.item}>
+        <StyledCheckboxSVG />
       </div>
     </div>
   );
