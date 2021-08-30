@@ -3,7 +3,9 @@ import StyledCheckboxOne from './components/StyledCheckboxOne/StyledCheckboxOne'
 import styles from './App.module.css';
 import Button from '@material-ui/core/Button';
 import StyledCheckboxTwo from './components/StyledCheckboxTwo/StyledCheckboxTwo';
-import StledCheckboxThree from './components/StyledCheckboxThree/StyledCheckboxThree'
+import StledCheckboxThree from './components/StyledCheckboxThree/StyledCheckboxThree';
+import StyledCheckboxBNW from './components/StyledCheckboxBNW/StyledCheckboxBNW';
+import StyledCheckboxBNWInverted from './components/StyledCheckboxBNWInverted/StyledCheckboxBNWInverted';
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
       </div>
       <div className={styles.item}>
         <StledCheckboxThree />
+      </div>
+      <div className={styles.item}>
+        <StyledCheckboxBNW />
+      </div>
+      <div className={styles.item}>
+        <StyledCheckboxBNWInverted />
       </div>
     </div>
   );
