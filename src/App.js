@@ -7,6 +7,7 @@ import StledCheckboxThree from './components/StyledCheckboxThree/StyledCheckboxT
 import StyledCheckboxBNW from './components/StyledCheckboxBNW/StyledCheckboxBNW';
 import StyledCheckboxBNWInverted from './components/StyledCheckboxBNWInverted/StyledCheckboxBNWInverted';
 import StyledCheckboxFour from './components/StyledCheckboxFour/StyledCheckboxFour';
+import StyledCheckboxFive from './components/StyledCheckboxFive/StyledCheckboxFive';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
       </div>
       <div className={styles.item}>
         <StyledCheckboxFour />
+      </div>
+      <div className={styles.item}>
+        <StyledCheckboxFive />
       </div>
     </div>
   );
