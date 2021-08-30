@@ -11,6 +11,7 @@ import StyledCheckboxFive from './components/StyledCheckboxFive/StyledCheckboxFi
 import SVGSquare from './components/SVGSquare/SVGSquare';
 import StyledCheckboxSVG from './components/StyledCheckboxSVG/StyledCheckboxSVG';
 import StyledCheckboxSVGTwo from './components/StyledCheckboxSVGTwo/StyledCheckboxSVGTwo';
+import StyledCheckboxSVGThree from './components/StyledCheckboxSVGThree/StyledCheckboxSVGThree';
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
       </div>
       <div className={styles.item}>
         <StyledCheckboxSVGTwo />
+      </div>
+      <div className={styles.item}>
+        <StyledCheckboxSVGThree />
       </div>
     </div>
   );
