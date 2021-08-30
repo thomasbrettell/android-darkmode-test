@@ -6,6 +6,7 @@ import StyledCheckboxTwo from './components/StyledCheckboxTwo/StyledCheckboxTwo'
 import StledCheckboxThree from './components/StyledCheckboxThree/StyledCheckboxThree';
 import StyledCheckboxBNW from './components/StyledCheckboxBNW/StyledCheckboxBNW';
 import StyledCheckboxBNWInverted from './components/StyledCheckboxBNWInverted/StyledCheckboxBNWInverted';
+import StyledCheckboxFour from './components/StyledCheckboxFour/StyledCheckboxFour';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </div>
       <div className={styles.item}>
         <StyledCheckboxBNWInverted />
+      </div>
+      <div className={styles.item}>
+        <StyledCheckboxFour />
       </div>
     </div>
   );
